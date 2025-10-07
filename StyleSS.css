@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at top, #04040a, #000);
+  color: #0ff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 2em;
+  color: #f0f;
+  text-shadow: 0 0 15px #f0f, 0 0 25px #0ff;
+  margin: 20px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff;
+}
+
+select {
+  background: #111;
+  color: #0ff;
+  border: 1px solid #0ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: 'Orbitron';
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.2em;
+  text-shadow: 0 0 5px #0ff, 0 0 15px #f0f;
+  margin-bottom: 10px;
+}
+
+canvas {
+  background: linear-gradient(180deg, #070716 0%, #0a0a1a 100%);
+  box-shadow: 0 0 30px #0ff;
+  border-radius: 10px;
+}
+
+.back-menu {
+  margin-top: 15px;
+}
+
+.btn-menu,
+.btn-restart {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #111;
+  color: #0ff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #0ff;
+  transition: 0.3s;
+}
+
+.btn-menu:hover,
+.btn-restart:hover {
+  background: #0ff;
+  color: #111;
+  box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+}

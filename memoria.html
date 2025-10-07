@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Memoria</title>
+  <link rel="stylesheet" href="styleM.css">
+</head>
+<body>
+  <div class="menu">
+    <h1>Juego de Memoria Cyberpunk</h1>
+    <div class="controls">
+      <label for="difficulty">Dificultad:</label>
+      <select id="difficulty">
+        <option value="easy">Fácil (8 pares)</option>
+        <option value="medium">Medio (10 pares)</option>
+        <option value="hard">Difícil (15 pares)</option>
+      </select>
+      <button id="start">Jugar</button>
+      <button id="restart">Reiniciar</button>
+    </div>
+    <div class="status">
+      <span id="time">⏱ Tiempo: 0s</span>
+      <span id="attempts">🎯 Intentos: 0</span>
+      <span id="score">💎 Puntos: 10000</span>
+    </div>
+  </div>
+
+  <div class="game-board" id="gameBoard"></div>
+
+  <!-- Botón Volver al Menú -->
+  <div class="back-menu">
+    <a href="index.html" class="btn-menu">⬅️ Volver al Menú</a>
+  </div>
+
+  <script src="scriptM.js"></script>
+</body>
+</html>
