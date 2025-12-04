@@ -130,4 +130,4 @@ function resetBoard() {
 // Eventos
 startBtn.addEventListener("click", startGame);
 restartBtn.addEventListener("click", startGame);
-menuBtn.addEventListener("click", () => location.href = "../index.html");
+menuBtn.addEventListener("click", () => location.href = "index.html");
